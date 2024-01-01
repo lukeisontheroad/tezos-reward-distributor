@@ -37,7 +37,7 @@ The [terms of use](https://api.tzkt.io/#section/Terms-of-Use) of TzKT API allow 
 
 ## Requirements and Setup
 
-The setup instructions are Linux specific. Python 3 is required. You can use the following commands to install it.
+Python 3 is required. You can use the following commands to install it.
 
 ```bash
 sudo apt-get update
@@ -50,24 +50,20 @@ Download the application repository using git clone:
 git clone https://github.com/tezos-reward-distributor-organization/tezos-reward-distributor
 ```
 
-To install required modules, use pip with `requirements.txt` provided. Follow the instructions to create a virtual environment for your project specific python installation: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
-
-```bash
-python3 -m venv env
-source env/bin/activate
-```
+To install required modules, use pip with `requirements.txt` provided.
 
 ```bash
 cd tezos-reward-distributor
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 To install the required modules for developers, use pip with `requirements_developer.txt` provided.
 
 ```bash
 cd tezos-reward-distributor
-python3 -m pip install -r requirements_developer.txt
+pip install -r requirements_developer.txt
 ```
+
 
 Regularly check and upgrade to the latest available version:
 

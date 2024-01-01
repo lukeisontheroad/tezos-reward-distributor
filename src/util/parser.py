@@ -1,6 +1,5 @@
-import os
 import argparse
-from util.args_validator import validate
+import os
 
 from Constants import (
     BASE_DIR,
@@ -269,10 +268,3 @@ def add_argument_log_file(argparser):
         ),
         default=default_log_file,
     )
-
-
-def parse_arguments(args=None):
-    parser = build_parser()
-    # Basic validations
-    args = validate(parser)
-    return args
